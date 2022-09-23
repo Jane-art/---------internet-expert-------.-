@@ -1,0 +1,556 @@
+body {
+    margin: 0px;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 320px;
+    gap: 30px;
+    width: 100%;
+    height: 56px;
+    flex-wrap: wrap;
+    background: #333333;
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 350px;
+    height: 22px;
+    top: 17px;
+    left: 320px;
+
+}
+.nav-text {
+    width: 113px;
+    height: 22px;
+    left: 25px;
+    font-family: 'Fira Sans Condensed', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+.nav-text2 {
+    width: 150px;
+    height: 22px;
+    font-family: 'Fira Sans Condensed', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+
+}
+.form-search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 0px 24px;
+    width: 680px;
+    height: 32px;
+    background: #DCE1E6;
+    border-radius: 4px;
+    border: 1px solid #000;
+}
+
+.btn-s {
+    box-sizing: border-box;
+    display: flex;
+    margin-left:0px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px 14px;
+    gap: 8px;
+    cursor: pointer;
+    width: 70px;
+    height: 32px;
+    background: #00EA90;
+    border: 1px solid #00EA90;
+
+    font-family: 'Fira Sans Condensed', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    border-radius: 4px;
+    text-align: center;
+}
+.button-v {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 13px;
+    width: 134px;
+    height: 32px;
+    border: 1px solid #888888;
+    border-radius: 4px;
+    background: #333333;
+    cursor: pointer;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 24px 320px;
+    gap: 81px;
+    top: 56px;
+    width: 100%;
+    height: 96px;
+
+    background: #0C192B;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 173px;
+    height: 64px;
+}
+.name {
+    width: 93px;
+    font-family: 'Fira Sans Condensed', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    letter-spacing: 0.02em;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 64px;
+    width: 617px;
+    height: 22px;
+    top: 37px;
+    font-family: 'Fira Sans Condensed', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    width: 283px;
+    height: 48px;
+}
+.cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 138px;
+    height: 48px;
+    background: #00EA90;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Fira Sans Condensed', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+}
+a {
+    text-decoration: none;
+}
+
+/* Стили для выпадающих списков */
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    flex-direction: row;
+    position: absolute;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+    width: 328px;
+    height: 585px;
+    left: 536px;
+    top: 216px;
+    box-sizing: border-box;
+    border: 1px solid #DCE1E6;  
+}
+
+.dropRight-content {
+    display: none;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+    position: inherit;
+    width: 328px;
+    height: 100%;
+    left: 326px;
+    top: -1px;
+    box-sizing: border-box;
+    border: 1px solid #DCE1E6; 
+    float: right; 
+}
+
+.newLink {
+    display: none;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+    position: inherit;
+    width: 418px;
+    left: 325px;
+    top: 0px;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid #DCE1E6; 
+    float: right;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #454545;
+    padding-top: 11px;
+    padding-bottom:11px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block;
+    
+}
+.dropdown-content a {
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, transparent, #DCE1E6, #DCE1E6, transparent ) 100% 0%;   
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #DCE1E6}
+.active {background-color: #DCE1E6}
+.rightActive {background-color:#DCE1E6}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.link {
+    -webkit-text-fill-color:#454545;
+    font-family: 'Fira Sans Condensed', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+.link a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+/* Links inside the dropdown */
+.dropRight-content a {
+    color: #454545;
+    padding-top: 11px;
+    padding-bottom:13px;
+    padding-left: 28px;
+    padding-right: 35px;
+    display: block;    
+}
+.drop {
+    border-radius: 0;
+    cursor: pointer;
+}
+.dropdown-button {
+    cursor: pointer;
+}
+/* Change color of dropdown links on hover */
+.dropRight-content  a:hover {background-color: #DCE1E6}
+
+
+.newLink p {
+    width: 131px;
+    height: 18px;
+    margin-left: 24px;
+    font-family: 'Fira Sans Condensed', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #454545;
+}
+.protective-equipment {
+    width: 320px;
+    height: 192px;
+    margin: 8px 72px 38px 24px;
+    font-family: 'Fira Sans Condensed', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 48px;
+    color: #000000;
+}
+.artImg {
+    display: block;
+    width: 364px;
+    height: 228px;
+    margin-top: 38px; 
+}
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.show {display:block;}
+
+.link_2 a {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.link_2 {
+    font-family: 'Fira Sans Condensed', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #454545;
+    text-transform: none; 
+}
+@media screen and (max-device-width: 1260px) {
+    .navbar {
+        padding: 10px;
+        gap: 10px;
+        height: auto;
+    }
+    .contact {
+        padding: 10px;
+        gap: 10px;
+        width: 300px;
+    }
+    .menu {
+        padding: 10px;
+        gap: 20px;
+        height: auto;
+    }
+    .nav-text {
+        font-size: 15px;
+        line-height: 20px;
+        height: auto;
+    }
+    .nav-text2 {
+        font-size: 18px;
+        line-height: 22px;
+        width: auto;
+    }
+    .form-search {
+        padding: 0px 0px 0px 10px;
+        width: 300px;
+    }
+    .name {
+        font-weight: 600;
+        font-size: 35px;
+    }
+    .info {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 20px;
+        width: 550px;
+        font-size: 17px;
+        line-height: 17px;
+        padding-top:10px;
+        height: auto;
+    }
+    .button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 17px;
+        gap: 20px;
+        height: auto;
+    }
+    .cart {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 13px;
+        width: 134px;
+        height: 32px;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-device-width: 780px) {
+    .navbar {
+        gap: 10px;
+        height: auto;
+    }
+    .contact {
+        gap: 10px;
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px 10px 0px 0px;
+        justify-content: flex-end;
+    }
+    .menu {
+        gap: 20px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .nav-text {
+        font-size: 15px;
+        line-height: 20px;
+        height: auto;
+    }
+    .nav-text2 {
+        font-size: 18px;
+        line-height: 22px;
+        width: auto;
+    }
+    .form-search {
+        padding: 0px 0px 0px 10px;
+        width: 300px;
+    }
+    .name {
+        font-weight: 600;
+        font-size: 35px;
+    }
+    .info {
+        display: flex;
+        flex-direction:column;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 20px;
+        width: 550px;
+        font-size: 17px;
+        line-height: 17px;
+        padding-top:10px;
+        height: auto;
+    }
+    .button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 17px;
+        gap: 20px;
+        height: auto;
+    }
+    .cart {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 13px;
+        width: 134px;
+        height: 32px;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-device-width: 631px) {
+    .navbar {
+        gap: 10px;
+        height: auto;
+        width: auto;
+    }
+    .contact {
+        gap: 10px;
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px 10px 0px 0px;
+        justify-content: flex-end;
+    }
+    .menu {
+        gap: 20px;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .nav-text {
+        font-size: 15px;
+        line-height: 20px;
+        height: auto;
+    }
+    .nav-text2 {
+        font-size: 18px;
+        line-height: 22px;
+        width: auto;
+    }
+    .form-search {
+        padding: 0px 0px 0px 10px;
+        width: 300px;
+    }
+    .name {
+        font-weight: 600;
+        font-size: 35px;
+    }
+    .info {
+        display: flex;
+        flex-direction:column;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 20px;
+        width: 550px;
+        font-size: 17px;
+        line-height: 17px;
+        padding-top:10px;
+        height: auto;
+        width: auto;
+    }
+    .button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 17px;
+        gap: 20px;
+        height: auto;
+    }
+    .cart {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 13px;
+        width: 134px;
+        height: 32px;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
