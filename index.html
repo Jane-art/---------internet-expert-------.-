@@ -15,15 +15,43 @@
             border: none; /* Убираем рамку */
             outline: none; /* Убираем свечение в Chrome и Safari */
             -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
-            width: 610px; /* Ширина поля */
+            width: 580px; /* Ширина поля */
             vertical-align: middle; /* Выравнивание по середине */
             background: #DCE1E6;
+            }
+        </style>
+         <style>
+            @media screen and (max-device-width: 1860px) {
+                input[type="search"] {
+                    width: 460px;
+                }
+            }
+        </style>
+        <style>
+            @media screen and (max-device-width: 1740px) {
+                input[type="search"] {
+                    width: 380px;
+                }
+            }
+        </style>
+        <style>
+            @media screen and (max-device-width: 1660px) {
+                input[type="search"] {
+                    width: 350px;
+                }
             }
         </style>
         <style>
             @media screen and (max-device-width: 1260px) {
                 input[type="search"] {
-                    width: 220px;
+                    width: 300px;
+                }
+            }
+        </style>
+        <style>
+            @media screen and (max-device-width: 1010px) {
+                input[type="search"] {
+                    width: 200px;
                 }
             }
         </style>
@@ -116,147 +144,156 @@
                     <h1 class="name">Name</h1>
                 </div>
                 <div class="info ">
-                    <div class="dropdown" id="CatalogID">
-                        <p class="dropdown-button">КАТАЛОГ ТОВАРОВ</p>
-                    <div class="allMenu">
-                        <div class="dropdown-content link" id="popupMenuID">
-                            <a>ВСЕ ДЛЯ САДА
-                                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
-                                </svg>
-                            </a>
-                            <a>ВЫСОКОВОЛЬТНОЕ ОБОРУДОВАНИЕ 
-                                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
-                                </svg>
-                            </a>
-                            <a>ЭЛЕКТРОМОНТАЖНЫЕ ИЗДЕЛИЯ 
-                                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
-                                </svg>
-                            </a>
-                            <div id="subCatalogID">
-                                <div class="testClass">
-                                    <a>ИНСТРУМЕНТ,УСТРОЙСТВА ИЗМЕРЕНИЯ И СРЕДСТВА ЗАЩИТЫ
-                                        <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
-                                        </svg>
-                                    </a>
-                                </div>
+                    
 
-                                <div id="popupMenuIDSecond" class="dropRight-content dropRight link_2">
-                                        <a>Измерительные приборы
+                    <div class="dropdown" id="CatalogID">
+                        <div class="justBorder">
+                            Test
+                            
+                        </div>
+                        <p class="dropdown-button">КАТАЛОГ ТОВАРОВ</p>
+                        
+                        <div class="allMenu">
+                            <div class="dropdown-content link" id="popupMenuID">
+                                <a>ВСЕ ДЛЯ САДА
+                                    <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
+                                    </svg>
+                                </a>
+                                <a>ВЫСОКОВОЛЬТНОЕ ОБОРУДОВАНИЕ 
+                                    <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
+                                    </svg>
+                                </a>
+                                <a>ЭЛЕКТРОМОНТАЖНЫЕ ИЗДЕЛИЯ 
+                                    <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
+                                    </svg>
+                                </a>
+                                <div id="subCatalogID">
+                                    <div class="testClass">
+                                        <a>ИНСТРУМЕНТ,УСТРОЙСТВА ИЗМЕРЕНИЯ И СРЕДСТВА ЗАЩИТЫ
                                             <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
                                             </svg>
                                         </a>
-                                        <a>Инструмент
-                                            <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
-                                            </svg>
-                                        </a>
-                                        <a>Оснастка,комплектующие и расходные материалы
-                                            <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
-                                            </svg>
-                                        </a>
-                                        <a>Электроинструмент
-                                            <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
-                                            </svg>
-                                        </a>
-                                        <a>Инструмент для работы с кабелем и проводом
-                                            <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
-                                            </svg>
-                                        </a>
-                                        <div id="CartID" class="newLink">
-                                        
-                                            <a>Средства защиты 
+                                    </div>
+
+                                    <div id="popupMenuIDSecond" class="dropRight-content dropRight link_2">
+                                            <a>Измерительные приборы
                                                 <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
                                                 </svg>
                                             </a>
-                                            <div class="protective-equipment" id="popupMenuIDThird">
-                                                <p>Средства защиты</p><hr>
-                                                <span>Защита от падения с высоты</span><br>
-                                                <span>Ограждения и Знаки безопасности</span><br>
-                                                <span>Средства защиты от поражения электрическим током</span><br>
-                                                <span>Указатели и индикаторы напряжения</span>
-                                                <div class="artImg"><img src="helmet.png" alt="Картинка шлема"></div>
-                                            </div>
-                                        </div>
-                                
-                                    <a>Оборудование для инструмента
-                                        <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
-                                        </svg>
-                                    </a>
-                                    <a>Структурированные кабельные системы
-                                        <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
-                                        </svg>
-                                    </a>
-                                    <a>Хозяйственные товары
-                                        <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
-                                        </svg>
-                                    </a>
-                                </div>
-                            </div>
+                                            <a>Инструмент
+                                                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
+                                                </svg>
+                                            </a>
+                                            <a>Оснастка,комплектующие и расходные материалы
+                                                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
+                                                </svg>
+                                            </a>
+                                            <a>Электроинструмент
+                                                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
+                                                </svg>
+                                            </a>
+                                            <a>Инструмент для работы с кабелем и проводом
+                                                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
+                                                </svg>
+                                            </a>
 
-                            <a>КАБЕЛЬ И ПРОВОД 
-                                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
-                                </svg>
-                            </a>
-                            <a>ИНЖЕНЕРНАЯ САНТЕХНИКА 
-                                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
-                                </svg>
-                            </a>
-                            <a>РЕТРО 
-                                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
-                                </svg>
-                            </a>
-                            <a>КРЕПЕЖ 
-                                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
-                                </svg>
-                            </a>
-                            <a>ЛЮСТРЫ 
-                                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
-                                </svg>
-                            </a>
-                            <a>НИЗКОВОЛЬТНОЕ ОБОРУДОВАНИЕ 
-                                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
-                                </svg>
-                            </a>
-                            <a>ПРИБОРЫ ОБОГРЕВА И ВЕНТИЛЯЦИИ 
-                                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
-                                </svg>
-                            </a>
-                            <a>СВЕТОТЕХНИЧЕСКИЕ ИЗДЕЛИЯ 
-                                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
-                                </svg>
-                            </a>
-                            <a>ЩИТОВОЕ ОБОРУДОВАНИЕ 
-                                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
-                                </svg>
-                            </a>
-                            <a>ЭЛЕКТРОУСТАНОВОЧНЫЕ ИЗДЕЛИЯ 
-                                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
-                                </svg>
-                            </a>
+                                            <div id="CartID">
+                                                <a>Средства защиты 
+                                                    <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
+                                                    </svg>
+                                                </a>
+                                                <div class="newLink" id="popupMenuIDThird">
+                                                    <div class="protective-equipment" >
+                                                        <p>Средства защиты</p><hr>
+                                                        <span>Защита от падения с высоты</span><br>
+                                                        <span>Ограждения и Знаки безопасности</span><br>
+                                                        <span>Средства защиты от поражения электрическим током</span><br>
+                                                        <span>Указатели и индикаторы напряжения</span>
+                                                        <div class="artImg"><img src="helmet.png" alt="Картинка шлема"></div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                    
+                                        <a>Оборудование для инструмента
+                                            <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
+                                            </svg>
+                                        </a>
+                                        <a>Структурированные кабельные системы
+                                            <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
+                                            </svg>
+                                        </a>
+                                        <a>Хозяйственные товары
+                                            <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <a>КАБЕЛЬ И ПРОВОД 
+                                    <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
+                                    </svg>
+                                </a>
+                                <a>ИНЖЕНЕРНАЯ САНТЕХНИКА 
+                                    <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
+                                    </svg>
+                                </a>
+                                <a>РЕТРО 
+                                    <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
+                                    </svg>
+                                </a>
+                                <a>КРЕПЕЖ 
+                                    <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
+                                    </svg>
+                                </a>
+                                <a>ЛЮСТРЫ 
+                                    <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
+                                    </svg>
+                                </a>
+                                <a>НИЗКОВОЛЬТНОЕ ОБОРУДОВАНИЕ 
+                                    <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
+                                    </svg>
+                                </a>
+                                <a>ПРИБОРЫ ОБОГРЕВА И ВЕНТИЛЯЦИИ 
+                                    <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
+                                    </svg>
+                                </a>
+                                <a>СВЕТОТЕХНИЧЕСКИЕ ИЗДЕЛИЯ 
+                                    <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
+                                    </svg>
+                                </a>
+                                <a>ЩИТОВОЕ ОБОРУДОВАНИЕ 
+                                    <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
+                                    </svg>
+                                </a>
+                                <a>ЭЛЕКТРОУСТАНОВОЧНЫЕ ИЗДЕЛИЯ 
+                                    <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.644287 1L6.32886 6.5L0.644287 12" stroke="#888888"/>
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
-                    </div>
                     </div>
                     <a href="#">ДОСТАВКА И ОПЛАТА</a>
                     <a href="#">АКЦИИ</a>
