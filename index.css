@@ -112,7 +112,6 @@ body {
     top: 56px;
     width: 100%;
     height: 96px;
-
     background: #0C192B;
 }
 .logo {
@@ -187,15 +186,19 @@ a {
 
 /* Стили для выпадающих списков */
 /* Dropdown Content (Hidden by Default) */
+.testClass{
+    word-wrap: anywhere;
+    width: 100%;
+}
 .dropdown-content {
-    display: none;
+    /* display: none; */
     flex-direction: row;
     position: absolute;
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
     width: 328px;
-    height: 585px;
+    height: 572px;
     left: 536px;
-    top: 216px;
+    top: 215px;
     box-sizing: border-box;
     /* border: 1px solid #DCE1E6; */
     border: dashed 1px black;
@@ -204,11 +207,11 @@ a {
 .dropRight-content {
     display: none;
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
-    position: inherit;
+    position: absolute;
     width: 328px;
     height: 100%;
     left: 326px;
-    top: -1px;
+    top: 0px;
     box-sizing: border-box;
     border: 1px solid #DCE1E6; 
     float: right; 
@@ -217,7 +220,7 @@ a {
 .newLink {
     display: none;
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
-    position: inherit;
+    position: absolute;
     width: 418px;
     left: 325px;
     top: 0px;
@@ -249,6 +252,7 @@ a {
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+.hide {display: none;}
 
 .link {
     -webkit-text-fill-color:#454545;
@@ -507,15 +511,17 @@ img {
         font-size: 15px;
         line-height: 20px;
         height: auto;
+        width: auto;
     }
     .nav-text2 {
         font-size: 18px;
-        line-height: 22px;
+        line-height: 20px;
         width: auto;
+        height: auto;
     }
     .form-search {
         padding: 0px 0px 0px 10px;
-        width: 300px;
+        width: 250px;
     }
     .name {
         font-weight: 600;
